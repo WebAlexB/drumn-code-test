@@ -1,0 +1,33 @@
+/*
+Theme Name: BasicTheme
+Author: Alex
+Text Domain: basic-theme
+*/
+@import "assets/css/section/header.css";
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background: #333;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+}
+nav a {
+	color: #fff;
+	margin: 0 10px;
+	text-decoration: none;
+}
+footer {
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 1em;
+}
+.notice {
+	background: #ffeb3b;
+	padding: 1em;
+	text-align: center;
+}
